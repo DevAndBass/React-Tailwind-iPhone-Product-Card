@@ -1,8 +1,9 @@
 import React from 'react';
 
-function ProductCard({brand, model, rating, description, price, selectedColours}) {
+function ProductCard({brand, model, rating, description, price, selectColours}) {
     return (
         <>
+            <div>HELLO!</div>
             <div className={"flex bg-custom-gradient items-center content-center justify-center overflow-hidden h-screen"}>
                 {/*Main card div*/}
                 <article
@@ -19,8 +20,20 @@ function ProductCard({brand, model, rating, description, price, selectedColours}
                     </div>
                     <h1>{brand}</h1>
                     <h2>{model}</h2>
-                    <div>RATING</div>
+                    <div>RATING {rating}</div>
                     <p>{description}</p>
+                    {/* Colour selection buttons */}
+                    <div className={"flex flex-row justify-between mx-3 my-6"}>
+                        {selectColours.map((button, i) => (
+                            <button
+                            key={i}
+                            className={`w-[30px] h-[30px] rounded-full ${button.bgColor}`}
+                            onClick={ () =>
+                                console.log("Button clicked!")
+                            }>
+                            </button>
+                        ))}
+                    </div>
                 </article>
             </div>
         </>
