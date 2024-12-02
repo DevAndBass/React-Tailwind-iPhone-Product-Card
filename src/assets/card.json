@@ -2,14 +2,14 @@
   "product": {
     "brand": "Apple",
     "model": "iPhone 13",
-    "rating": 4.2,
+    "rating": 4.3,
     "description": "The iPhone 13's brighter display, longer battery life and powerful cameras make it the best iPhone for those on a budget.",
     "price": "£439.99",
     "selectColours": [
-      { "src": "img/black.png", "bgColor": "bg-black", "alt": "black" },
-      { "src": "img/blue.png", "bgColor": "bg-blue-500", "alt": "blue" },
-      { "src": "img/pink.png", "bgColor": "bg-pink-500", "alt": "pink" },
-      { "src": "img/white.png", "bgColor": "bg-white", "alt": "white" }
+      { "src": "img/black.png", "bgColor": "btnBlack", "alt": "black" },
+      { "src": "img/blue.png", "bgColor": "btnBlue", "alt": "blue" },
+      { "src": "img/pink.png", "bgColor": "btnPink", "alt": "pink" },
+      { "src": "img/white.png", "bgColor": "btnWhite", "alt": "white" }
     ]
   }
 }

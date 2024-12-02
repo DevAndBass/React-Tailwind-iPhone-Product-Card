@@ -6,7 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif'],
+      },
       colors: {
+        btnBlack: '#000000',
+        btnBlue: '#1D4ED8',
+        btnPink: '#D946EF',
+        btnWhite: '#FFFFFF',
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to right, #a18cd1, #fbc2eb)',
