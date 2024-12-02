@@ -1,8 +1,36 @@
-# React + Vite
+# React and Tailwind Product Card Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A customisable React component to display product details, including an image, rating with stars, description, and color selection options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays dynamic product image, brand, model, and description using an external json file.
+- Allows color selection to choose between product variations.
+- Renders a 5-star rating system that updates when the rating changes.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   https://github.com/DevAndBass/React-Tailwind-iPhone-Product-Card.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the project:
+   ```bash
+   npm start
+   ```
+
+## Demo
+
+Watch the tutorial for building this component on my [YouTube Channel](https://www.youtube.com/DevAndBass). (**Coming soon!**)
+
+## Socials
+
+- YouTube: [🎥 DevAndBass](https://www.youtube.com/@DevAndBass)
+- GitHub: [🖥️ DevAndBass](https://github.com/DevAndBass)
+
