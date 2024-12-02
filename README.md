@@ -12,7 +12,11 @@ A customisable React component to display product details, including an image, r
 
 1. Clone the repository:
    ```bash
-   https://github.com/DevAndBass/React-Tailwind-iPhone-Product-Card.git
+   git clone https://github.com/DevAndBass/React-Tailwind-iPhone-Product-Card.git
+   ```
+2. Navigate into the directory
+   ```bash
+   cd React-Tailwind-iPhone-Product-Card
    ```
 
 2. Install dependencies:
@@ -22,7 +26,7 @@ A customisable React component to display product details, including an image, r
 
 3. Run the project:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Demo
